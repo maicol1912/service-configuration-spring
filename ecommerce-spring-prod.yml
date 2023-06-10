@@ -21,4 +21,4 @@ jwt:
 ecommerce:
   property: Ecommerce Profile PROD
 server:
-  port: 8081
+  port: 9091
