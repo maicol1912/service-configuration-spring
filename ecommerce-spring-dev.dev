@@ -1,0 +1,24 @@
+spring:
+  main:
+    allow-circular-references: 'true'
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: update
+    show-sql: 'false'
+    properties:
+      hibernate:
+        format_sql: 'true'
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    password: '1234'
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/ecommerce_hexagonal
+jwt:
+  secret_key: 7A24432646294A404E635266556A586E3272357538782F4125442A472D4B6150
+  expiration_time: 86400000A
+ecommerce:
+  property: Ecommerce Profile DEV
+server:
+  port: '8081'
