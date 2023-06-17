@@ -11,7 +11,7 @@ spring:
         format_sql: true
     database-platform: org.hibernate.dialect.PostgreSQLDialect
   datasource:
-    password: 1234
+    password: maicol123
     driver-class-name: org.postgresql.Driver
     username: postgres
     url: jdbc:postgresql://localhost:5432/ecommerce_hexagonal
